@@ -1,0 +1,454 @@
+
+*{
+
+
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+   
+body{
+background-color: #222;
+color: white;
+
+
+
+
+
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 200;
+}
+
+th{color: white;}
+
+
+
+
+.titulo{
+
+font-size: 36px;
+line-height: 36px;
+
+
+}
+
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+h3{
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+p{
+
+    text-align: justify;
+}
+.hastag{
+
+    color: #ffc900;
+}
+a{
+
+
+text-decoration: none;
+
+
+}
+
+a:any-link{
+
+    color: white;
+}
+
+a:-moz-any-link{
+    color: solid white;
+}
+a:-webkit-any-link{
+
+
+    color: solid white;
+}
+
+
+#experiencia{
+
+
+background-color: white;
+color: #222;
+}
+
+.gridexp{
+
+ 
+    display: grid; 
+    gap: 10px;
+   grid-template-columns: repeat(3,350px);
+    gap: 10pxs;
+   
+   justify-content: space-between;
+   align-content: space-around;
+
+}
+.cardexp{
+
+    background-color: #222;
+
+    border-radius: 15px;
+
+    color: white;
+
+    padding: 10px 15px;
+    
+}
+
+.cardexp h2{
+
+    margin-bottom: 5px;
+
+}
+
+.cardexp h3{
+
+    margin-bottom: 20px;
+
+}
+
+.cardexp p{
+
+    margin-bottom: 20px;
+
+}
+
+.cardexp ul{
+
+    display: flex;
+
+    justify-content: flex-end;
+
+}
+
+.cardexp li{
+
+    height: 30px;
+
+}
+table{
+
+
+    box-sizing: border-box;
+    width: 100%;
+  
+    
+
+}
+
+td{
+
+    margin:  10px;
+}
+
+#portfolio{
+
+border-top: 1px solid #ffc900;
+
+
+
+}
+
+
+
+section{
+
+     padding: 10px 100px 10px 100px;
+
+
+}
+#inicio{
+
+background-image: url( ../imagenes/OIG\ \(5\).jpeg);
+
+min-height: 280px;
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 85px;
+
+
+}
+
+#redes{
+
+ margin-top: 20px;
+ 
+
+
+
+
+}
+nav ul{
+
+font-size: 18px;
+display: inline-block;
+
+
+}
+nav ul li{
+
+
+margin-left: 20px;
+float: left;
+margin: 5px;
+list-style: none;
+
+
+}
+#inicio li{
+
+    margin-left: 20px;
+    float: left;
+    margin: 5px;
+    list-style: none;
+
+}
+nav{
+    position: fixed;
+   width: 100%;
+   height: 55px;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+#Sobre_mi{
+
+    display: grid; 
+    gap: 10px;
+   grid-template-columns: 250px 1fr;
+   
+
+
+
+
+}
+#Sobre_mi #one{ 
+
+grid-row: 1/3;
+
+}
+#Sobre_mi #two{
+grid-column: 2/3;
+
+}
+#Sobre_mi #botonsito{
+
+grid-column: 2/3;
+grid-row: 2/3;
+
+
+}
+#Sobre_mi .masinfo button{
+
+padding: 5px 30px 5px 30px;
+
+
+}
+
+.filaport{
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px 30px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.card{
+
+
+
+    width: 277px;
+    background-color: #191919;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card img{
+
+
+border-radius: 15px 15px 0 0;
+
+}
+.card h3 {
+
+color: #ffc900;
+
+
+}
+
+
+.card h4{
+
+
+    margin: 0 5px 5px 0;
+}
+.card .masinfo{
+
+
+    margin: 15px 0px 15px 0 px ;
+    height: 25px;
+}
+
+.masinfo button{
+
+
+
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+   
+}
+.card .masinfo button{
+
+    float: right;
+
+}
+.card .sep{
+
+
+
+    margin: 0 5px 5px 0;
+    border: 1px solid #ffc900;
+}
+
+.card h3, .card h4, .card p,.card .masinfo{
+
+padding: 0 15px;
+
+
+}
+button {
+    border-radius: 10px;
+    padding: 10epx;
+
+}
+
+
+#education{
+
+
+    background-color: #222;
+    color: white
+    }
+    
+    .containeredu{
+    
+     
+        display: grid; 
+        gap: 10px;
+       grid-template-columns: repeat(3,350px);
+        gap: 10px;
+       
+       justify-content: space-between;
+       align-content: space-around;
+    
+    }
+    .educard{
+    
+        background-color: #191919;
+    
+        border-radius: 15px;
+    
+        color: white;
+    
+        padding: 10px 15px;
+        
+    }
+    
+    .educard h2{
+    
+        margin-bottom: 5px;
+    
+    }
+    
+    .educard h3{
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .educard p{
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    .educard ul{
+    
+        display: flex;
+    
+        justify-content: flex-end;
+    
+    }
+    
+    .educard li{
+    
+        height: 30px;
+    
+    }
+
+
+    #Contactar {
+
+        background-color: #ffc900;
+        color: #222;
+
+    }
+
+    #Contactar .formContainer{
+
+
+        display: grid;
+        grid-template-columns: 150px 350px;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+       
+
+
+
+    }
+    .formContainer input, .formContainer textarea{
+
+        border-radius: 5px;
+        border: 1px solid #222;
+
+
+    }
+
+    #Contactar .FormText{
+        font-weight: 700;
+        
+
+    }
+    
+    #Contactar #submit{
+        padding: 10px;
+        background-color: #222;
+        color: white;
+        grid-column: 2/3;
+        justify-self: end;
+
+
+    }
+    
