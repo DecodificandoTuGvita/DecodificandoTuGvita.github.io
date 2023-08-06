@@ -93,6 +93,23 @@ color: #222;
    align-content: space-around;
 
 }
+@media (min-width:400) {
+
+
+    .gridexp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px 30px;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+
+
+    }
+    
+}
 .cardexp{
 
     background-color: #222;
