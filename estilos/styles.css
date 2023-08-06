@@ -93,7 +93,7 @@ color: #222;
    align-content: space-around;
 
 }
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 
 
     .gridexp{
