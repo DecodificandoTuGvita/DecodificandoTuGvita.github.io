@@ -84,13 +84,13 @@ color: #222;
 .gridexp{
 
  
-    display: grid; 
-    gap: 10px;
-   grid-template-columns: repeat(3,350px);
-    gap: 10pxs;
-   
-   justify-content: space-between;
-   align-content: space-around;
+   display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px 30px;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        margin-top: 15px;
 
 }
 @media (max-width: 1080px) {
